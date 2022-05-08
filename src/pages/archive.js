@@ -266,3 +266,29 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+// OG problem with android and ios
+// export const pageQuery = graphql`
+//   {
+//     allMarkdownRemark(
+//       filter: { fileAbsolutePath: { regex: "/projects/" } }
+//       sort: { fields: [frontmatter___date], order: DESC }
+//     ) {
+//       edges {
+//         node {
+//           frontmatter {
+//             date
+//             title
+//             tech
+//             github
+//             external
+//             ios
+//             android
+//             company
+//           }
+//           html
+//         }
+//       }
+//     }
+//   }
+// `;

@@ -59,29 +59,27 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Raghav Sethi.</h2>;
+  const three = <h3 className="big-heading">Problem Solver</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
+        A software engineer who develops all server-side logic, testing, maintenance, and definition
+        of databases also ensures high performance and responsiveness to requests from the front-end
         at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
+        <a href="https://www.gobolt.in/" target="_blank" rel="noreferrer">
+          GoBOLT
         </a>
         .
       </p>
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
+    <a className="email-link" href="/#contact" target="_blank" rel="noreferrer">
       Check out my course!
     </a>
+    // href="/#contact"
+    // <a href="#contact" class="hero__StyledEmailLink-sc-1h2rrd9-5 fmrkYZ">Say Hello</a>
   );
 
   const items = [one, two, three, four, five];
