@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://raghavsethi.com/sitemap.xml
+Host: https://raghavsethi.com
