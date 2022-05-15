@@ -13,7 +13,7 @@ url: 'https://www.gobolt.in/'
 - **Technology:** Python, gRPC, PostgreSQL, GCP, Git, Docker, Kubernetes
 - Developing new microservice as per requirement
 - Adding new features to existing microservices
-- Optimization of cureent system
+- Optimization of current system
 
 **Prima**
 
@@ -21,4 +21,4 @@ url: 'https://www.gobolt.in/'
 - **Technology:** Python, Flask, Pandas, KEDA, PubSub, OR-Tools, PostgreSQL, GCP, Git, Docker, Kubernetes
 - Developing new system as per requirement
 - Scalable, Asynchronous application
-- Use diffrent algorithims to minimize cost
+- Use different algorithms to minimize cost

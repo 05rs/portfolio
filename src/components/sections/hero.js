@@ -75,8 +75,8 @@ const Hero = () => {
     </>
   );
   const five = (
-    <a className="email-link" href="/#contact" target="_blank" rel="noreferrer">
-      Check out my course!
+    <a className="email-link" href="#contact" target="_blank" rel="noreferrer">
+      Contact Me!
     </a>
     // href="/#contact"
     // <a href="#contact" class="hero__StyledEmailLink-sc-1h2rrd9-5 fmrkYZ">Say Hello</a>
