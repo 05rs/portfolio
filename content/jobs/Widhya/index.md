@@ -4,7 +4,7 @@ title: 'intern'
 company: 'Widhya'
 location: 'Hyderabad'
 range: 'December 2020 - February 2021'
-url: 'https://www.apple.com/music/'
+url: 'https://widhya-7791d.web.app/'
 ---
 
-- Widhya Wintership 2021 Machine Learning intern, completed all for the micro-project given COVID19 Quantitative Analysis and Modeling, Flight delay, Instagram reach, and Stock Price Prediction.
+- __Widhya Wintership 2021__ Machine Learning intern, completed all for the micro-project given __COVID19 Quantitative Analysis and Modeling__, __Flight delay__, __Instagram reach__, and __Stock Price Prediction__.

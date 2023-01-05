@@ -7,4 +7,4 @@ range: 'June - July 2019'
 url: 'https://www.diginique.com/'
 ---
 
-- Data Analytics, Machine Learning with Python. Structuring Data then performing Dataset Cleaning and Exploratory Data Analysis and Visualization.
+- __Data Analytics__, __Machine Learning__ with Python. Structuring Data then performing __Dataset Cleaning__ and __Exploratory Data Analysis__ and __Visualization__.
