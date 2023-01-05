@@ -138,6 +138,14 @@ const About = () => {
     'Docker',
     'PubSub',
     'KEDA',
+    'Azure Durable Functions',
+    'Google Cloud Builds',
+    'Google Optimization AI',
+    'CP-SAT',
+    'VRP',
+    'Redash',
+    'BigQuery',
+    'Redis'
   ];
 
   return (
@@ -149,13 +157,13 @@ const About = () => {
           <div>
             <p>
               Hello! My name is Raghav and I enjoy creating things that live on the internet. My
-              interest in Machine Learning started back in 2017.
+              interest in <b>Machine Learning</b> started back in 2017.
             </p>
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://www.gobolt.in/">a start-up</a>. My main focus these days is building
-              optimized route-planning/
+              <a href="https://www.gobolt.in/">a <b>3PL</b> Logistics start-up</a>. My main focus these days is building
+              optimized route-planning.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
