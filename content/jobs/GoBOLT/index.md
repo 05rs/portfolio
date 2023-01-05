@@ -1,6 +1,6 @@
 ---
 date: '2021-10-4'
-title: 'SDE-2 Backend (Current)'
+title: 'SDE-1 and 2 Backend'
 company: 'GoBOLT'
 location: 'Gurugram, Haryana'
 range: 'Oct 2021 - Present'
