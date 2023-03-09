@@ -7,20 +7,25 @@ range: 'Oct 2021 - Present'
 url: 'https://www.gobolt.in/'
 ---
 
-**TMS - Transport Management System**
+**TMS : Third-Party Logistics Management Application**
 
-- An Application to manage __3PL__ Logistics
-- **Technology:** _Python_, _gRPC_, _PostgreSQL_, _GCP_, _Git_, _Docker_, _Kubernetes_, _Azure Durable Functions_
-- Used __gRPC__ with __Protocol Buffers__ for efficient microservice communication
-- Developing new __microservice__ and updating old ones as per requirement
-- Utilized __Azure Durable Functions__ for __serverless__ workflow __orchestration__ to coordinate loosely coupled microservices
-- Exposed __REST__ APIs with __Google Cloud Endpoints__ and __Extensible Service Proxy__ for high performance
+- Collaborated on developing and maintaining **3PL** logistics monitoring for the application.
+- Designed and developed new microservices to meet specific requirements, while also enhancing the suite of **30** existing **microservices**.
+- Employed **gRPC** with **Protocol Buffers** to ensure efficient and scalable communication between microservices.
+- Utilized **Azure Durable Functions** for seamless serverless workflow orchestration.
+- Exposed **REST APIs** with **Google Cloud Endpoints** and **Extensible Service Proxy**, resulting in exceptional performance.
 
-**Prima**
+---
 
-- An Application to plan __packaging__ and __route planning__ for Vehicles
-- **Technology:** _Python_, _Flask_, _Pandas_, _KEDA_, _PubSub_, _OR-Tools_, _PostgreSQL_, _GCP_, _Git_, _Docker_, _Kubernetes_, _HERE API_, _Google Distance Matrix API_, _Google Optimization AI_
-- __Scalable__, __Asynchronous__ application which can handle several planning jobs simultaneously where the client can track the progress live
-- Design and implementing __optimization models__ for __vehicle routing__ and __logistics__
-- Design and implementation of __VRP__, __Bin-Packing__, __Google Optimization AI__, __CP-SAT__ solver with custom business usecase constraints
-- __Fine Tuning__ VRP model parameters to __reduce model complexity__ which resulted in better solutions and reduced solver runtime
+**Prima : Vehicle Routing Planning Application**
+
+- Collaborated to build a new application from scratch to cater to the unique use cases of **Godrej & Boyce** and **Kohler**.
+- Implemented solutions for **vehicle routing planning (VRP)**, **bin-packing**, and optimization utilizing **CP-SAT**, **MIP**, and **Google Optimization AI** solver, with customized business constraints.
+- Leveraged **PubSub** and **Kubernetes-based Event Driven Autoscaling** on **GKE** to make the application scalable and asynchronous.
+- Capable of generating solutions surpassing manual optimization in considerably less time, optimizing **2.5K shipments** in **under 10 minutes**.
+- Optimized model parameters and constraints, enhancing solutions while reducing **solver runtime by 8X**.
+- Resulted in significant **cost savings** and operational efficiencies for the client.
+
+---
+
+**Technology:** _Python_ **·** _gRPC_ **·** _PostgreSQL_ **·** _GCP_ **·** _Redash_ **·** _TypeScript_ **·** _Azure Durable Functions_ **·** _Flask_ **·** _Pandas_ **·** _KEDA_ **·** _PubSub_ **·** _OR-Tools_ **·** _Git_ **·** _Docker_ **·** _Kubernetes_ **·** _HERE API_ **·** _Google Distance API_ **·** _Google Optimization AI_

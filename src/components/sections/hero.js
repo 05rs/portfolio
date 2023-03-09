@@ -60,21 +60,26 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Raghav Sethi.</h2>;
-  const three = <h3 className="big-heading">Problem Solver</h3>;
+  const three = (
+    <p>
+      A <b>Software Engineer</b> with a passion for solving complex problems through innovative and
+      efficient solutions.
+    </p>
+  );
   const four = (
-    <>
-      <p>
-        A software engineer who develops all server-side logic, testing, maintenance, and definition
-        of databases also ensures high performance and responsiveness to requests from the front-end
-        at{' '}
-        <a href="https://www.gobolt.in/" target="_blank" rel="noreferrer">
-          GoBOLT
-        </a>
-        .
-      </p>
-    </>
+    <p>
+      With extensive experience in <i>server-side development</i>, <i>database management</i>, and{' '}
+      <i>testing</i>, I specialize in creating high-performance, responsive applications that exceed
+      client expectations.
+    </p>
   );
   const five = (
+    <p>
+      Whether collaborating with cross-functional teams or working independently, I'm committed to
+      delivering exceptional software products that drive business success.
+    </p>
+  );
+  const six = (
     <a className="email-link" href="#contact" target="_blank" rel="noreferrer">
       Contact Me!
     </a>
@@ -82,7 +87,7 @@ const Hero = () => {
     // <a href="#contact" class="hero__StyledEmailLink-sc-1h2rrd9-5 fmrkYZ">Say Hello</a>
   );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, three, four, five, six];
 
   return (
     <StyledHeroSection>
@@ -97,7 +102,7 @@ const Hero = () => {
           {isMounted &&
             items.map((item, i) => (
               <CSSTransition key={i} classNames="fadeup" timeout={loaderDelay}>
-                <div style={{ transitionDelay: `${i + 1}00ms` }}>{item}</div>
+                <div style={{ transitionDelay: `${i + 1}50ms` }}>{item}</div>
               </CSSTransition>
             ))}
         </TransitionGroup>
