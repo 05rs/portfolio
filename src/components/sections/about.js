@@ -145,7 +145,7 @@ const About = () => {
     'VRP',
     'Redash',
     'BigQuery',
-    'Redis'
+    'Redis',
   ];
 
   return (
@@ -156,17 +156,26 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Raghav and I enjoy creating things that live on the internet. My
-              interest in <b>Machine Learning</b> started back in 2017.
+              I'm a software engineer with a passion for building innovative and efficient
+              solutions. My journey in tech started back in 2017 when I developed a keen interest in
+              machine learning. Since then, I have honed my skills by working on a variety of
+              challenging projects, including optimizing route-planning at a 3PL logistics{' '}
+              <a href="https://www.gobolt.in/">start-up</a>.
             </p>
-
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://www.gobolt.in/">a <b>3PL</b> Logistics start-up</a>. My main focus these days is building
-              optimized route-planning.
+              I have extensive experience in server-side development, database management, and
+              testing, which I leverage to create high-performance, responsive applications that
+              exceed client expectations. I am always eager to learn new technologies and take on
+              new challenges.
+            </p>
+            <p>
+              My ultimate goal is to use my skills to make a positive impact on the world. I believe
+              that technology has the power to solve many of the world's most pressing problems, and
+              I am excited to be part of the solution. Thanks for taking the time to learn a little
+              more about me!
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Below are some of the recent technologies that I have been working with:</p>
           </div>
 
           <ul className="skills-list">
@@ -178,7 +187,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpeg"
+              src="../../images/profile.png"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

@@ -11,16 +11,8 @@ module.exports = {
       url: '',
     },
     {
-      name: 'Twitter',
-      url: '',
-    },
-    {
       name: 'Linkedin',
       url: 'https://linkedin.com/in/sethi-raghav',
-    },
-    {
-      name: 'Codepen',
-      url: '',
     },
   ],
 

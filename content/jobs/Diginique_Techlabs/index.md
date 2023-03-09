@@ -7,4 +7,8 @@ range: 'June - July 2019'
 url: 'https://www.diginique.com/'
 ---
 
-- __Data Analytics__, __Machine Learning__ with Python. Structuring Data then performing __Dataset Cleaning__ and __Exploratory Data Analysis__ and __Visualization__.
+- During my internship, I gained experience in structuring data and performing exploratory data analysis (EDA) using univariate and bivariate analysis, correlation, and visualization techniques. I also applied linear regression, principal component analysis (PCA), k-nearest neighbours (KNN), and artificial neural network (ANN) algorithms to gain insights from the data.
+
+---
+
+**Technology:** _Pandas_ **·** _Scikit-Learn_ **·** _Matplotlib_ **·** _Anaconda_ **·** _Python_ **·** _NumPy_ **·** _TensorFlow_
